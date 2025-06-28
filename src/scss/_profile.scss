@@ -1,0 +1,992 @@
+.profile-box {
+    display: flex;
+    align-items: center;
+}
+.profile-border {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 41px 0px;
+}
+.cinema-passport img {
+    width: 100%;
+}
+.profile-photo {
+    margin-right: 20px;
+}
+.profile-content h3 {
+    font-size: 21px;
+    font-weight: 800;
+}
+.profile-content p {
+    font-size: 12px;
+    color: #7A7A7A;
+    margin-bottom: 3px;
+}
+.profile-space {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.bg-profile {
+    background: #DCEFFF;
+    padding:0px 18px;
+}
+
+/* .personal-details {
+    box-shadow: 0px 2px 0px #DDD;
+    background: #fff;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    padding: 16px;
+} */
+
+.icon-profile {
+    margin-right: 10px;
+}
+
+.personal-details ul li {
+    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    float: left;
+    margin-left: 8px;
+}
+.profile-active {
+    /* background: #DCE2EF; */
+    padding: 9px;
+    border-radius: 8px;
+}
+/* .spaces-divider {
+    margin-bottom: 124px;
+} */
+.whatsapp-on-profile p {
+    font-size: 12px;
+    margin-bottom: 9px;
+    font-weight: 600;
+    color: #000;
+}
+.whatsapp-icon-profile {
+    margin-right: 3px;
+}
+.switch-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.on-off p {
+    margin-bottom: 0px;
+}
+.whatsapp-on-profile {
+    background: #F9F9F9;
+    padding: 14px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.profile-complete {
+    /* background: #DCE2EF; */
+    padding: 14px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+.switch-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.on-off p {
+    margin-bottom: 0px;
+}
+
+.whatsapp-on-profile {
+    background: #F9F9F9;
+    padding: 14px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.profile-complete {
+    /* background: #DCE2EF; */
+    padding: 14px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+
+.profile-complete .p-progressbar {
+    border: 0 none;
+    height: 13px;
+    background: #ffffff;
+    border-radius: 6px;
+}
+
+.profile-complete h6 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.profile-complete p {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.profile-complete h5 {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.logout-profile {
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: #A63916;
+    font-weight: 500;
+    font-size: 14px;
+}
+.profile-complete .p-progressbar .p-progressbar-value {
+    /* background: #234B9E; */
+    height: 13px;
+    border-radius: 30px;
+    font-size:0px;
+}
+
+.information-personal {
+    background: #fff;
+    /* box-shadow: 0px 2px 0px #DDD; */
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.conatct-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-title h3 {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.edit-details h3 {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.personal-details-profile {
+    align-items: center;
+    display: flex;
+    margin-bottom: 18px;
+}
+.filed-details {
+    width: 30%;
+   
+}
+
+.fill-details {
+    width: 30%;
+}
+.filed-details h6 {
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #7A7A7A;
+    font-weight: 400;
+    font-family: 'Lato';
+}
+
+
+.fill-details h6 {
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Lato';
+}
+.profile-divider {
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    margin: 15px 0px;
+}
+.delete-account h6 {
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.rightarrow {
+    margin-right: 14px;
+}
+.fields-search .p-inputtext {
+    border-right: none;
+    font-family: 'Poppins';
+    font-size: 12px;
+    color: #000;
+    border: 1px solid #EDE8E9;
+    border-right: 0px;
+  }
+  .fields-search .p-inputtext:enabled:focus{
+    box-shadow: none;
+    border: 1px solid #EDE8E9;
+    border-right: 0px;
+  }
+  .fields-search .p-inputtext:enabled:hover {
+    border-color: #EDE8E9;
+}
+  .p-datepicker table{
+    font-family: 'Poppins';
+    font-size: 12px;
+    color: #000;
+    font-weight: 500;
+  }
+  .p-datepicker table td > span.p-highlight{
+    color: #234B9E;
+  }
+  .fields-search .p-calendar{
+    width: 100%;
+  }
+  .fields-number .p-inputnumber {
+    width: 100%;
+  }
+  .fields-search .p-button {
+    background: none;
+    border: 1px solid #EDE8E9;
+    border-left: 0px
+}
+.fields-search .p-button:enabled:hover, .p-button:not(button):not(a):not(.p-disabled):hover{
+    background: none;
+    border: 1px solid #EDE8E9;
+    border-left: 0px
+}
+
+.edit-profile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.edit-divider {
+    width: 100%;
+    background: #ddd;
+    height: 1px;
+    margin: 18px 0px;
+}
+
+.cancel-btn-edit {
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 27px;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.save-btn-edit {
+    padding: 9px 34px;
+    font-size: 12px;
+    border: 1px solid $dark-theme-color1;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    margin-right: 10px;
+    font-weight: 600;
+}
+.show-booking-profile .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    color: #020204;
+    font-size: 12px;
+}
+.show-booking-profile .p-tabview .p-tabview-nav .p-tabview-ink-bar{
+    /* background: #234B9E; */
+}
+.show-booking-profile .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    border-bottom: 2px solid #DDD !important;
+    font-size: 12px;
+    font-weight:600;
+    color: #808190;
+    padding: 8px 1.25rem;
+}
+.show-booking-profile .p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus{
+    box-shadow: none;
+}
+
+.food-ticket-profile {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.nobooking-available {
+    text-align: left;
+    height: 67px;
+}
+
+.nobooking-available h6 {
+    margin-bottom: 0px;
+    font-family: 'Poppins';
+    color: #000;
+}
+
+.nobooking-available img {
+    margin-bottom: 10.5px;
+}
+
+.nobooking-available h6 {
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.nobooking-available p {
+    font-size: 12px;
+    color: #6C6C6C;
+    margin-bottom: 18px;
+}
+.my-book-no {
+    border: none;
+    padding: 9px 32px;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 600;
+}
+.upcoming h3 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #808190;
+}
+
+.mybooking-box {
+    border: 1px solid #EDE8E9;
+    border-radius: 6px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 14px;
+    position: relative;
+}
+.mybooking-orderid {
+    text-align: right;
+}
+.my-booking-poster-name {
+    display: flex;
+}
+.mybooking-poster {
+    margin-right: 15px;
+}
+.mybooking-content h6 {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.mybook-drama ul li {
+    float: left;
+    list-style: none;
+    font-size: 12px;
+    color: #808190;
+    display: flex;
+    align-items: center;
+}
+
+.mybook-drama {
+    display: inline-block;
+    /* margin-bottom: 10px; */
+}
+
+.mybooking-content p {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #808190;
+}
+.food-line ul li {
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    color: #808190;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+.food {
+    color: #000;
+}
+.mybooking-content p {
+    margin-bottom: 10px;
+    color: #808190;
+}
+.food-line ul {
+    display: inline-block;
+}
+.direction-mybooking {
+    margin-right: 8px;
+}
+
+.food-mybooking-ntn {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.food-details-mybooking {
+    border-radius: 8px;
+    border: 1px solid $dark-theme-color1;
+    padding: 9px 13px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 600;
+}
+.mybooking-orderid p {
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #808190;
+}
+.dots-profile {
+    margin: 0px 4px;
+    width: 4px;
+    height: 4px;
+    background: #808190;
+    display: inline-block;
+}
+.cancel-booking {
+    position: absolute;
+    top: 19px;
+    right: 160px;
+}
+.ticket-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.ticket-detail-profile h5 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    color: #000;
+}
+
+.poster-box-profile {
+    display: flex;
+    background: #EDEDED;
+    border-radius: 8px 8px 0px 0px;
+    padding: 14px;
+    position: relative;
+    border-bottom: 1px solid #BFC0C7;
+}
+
+.movies-box-mybooking-details {
+    border: 1px solid #BFC0C7;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.poster-mybooking-photo {
+    margin-right: 13px;
+}
+
+.poster-mybooking-details h6 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+.mybook-dramas{
+    display: inline-block;
+}
+.mybook-dramas ul li {
+    font-size: 11px;
+    list-style: none;
+    float: left;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.dots-profiles {
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    background: #000;
+    margin: 0 4px;
+}
+
+.poster-mybooking-details p {
+    font-size: 11px;
+    color: #000;
+    margin-bottom: 0px;
+}
+.mybooking-detailsbar {
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+}
+.bar-direction img {
+    margin-right: 20px;
+}
+.date-all {
+    padding: 0px 18px;
+    display: flex;
+    margin-top: 18px;
+    font-family: 'Poppins';
+}
+.date-details {
+    width: 60%;
+}
+.time-details {
+    width: 40%;
+}
+.date-details p {
+    margin-bottom: 0px;
+    color: #808190;
+    font-size: 11px;
+    font-family: 'Poppins';
+}
+
+.date-details h6 {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.time-details p {
+    font-size: 11px;
+    margin-bottom: 0px;
+    color: #808190;
+}
+
+.time-details h6 {
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.seat-info-mybooking {
+    padding: 0px 18px;
+}
+.seat-info-mybooking p {
+    font-size: 11px;
+    margin-bottom: 0px;
+    color: #808190;
+}
+
+.seat-info-mybooking {
+    margin-top: 15px;
+}
+.seat-number p {
+    color: #000;
+    padding: 5px 8px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.seat-info-mybooking h6 {
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+
+.divider-dash-book {
+    width: 100%;
+    border: 1.8px dashed #BFC0C7;
+    margin: 18px 0px;
+}
+.alert-movies-cinema {
+    background: #234B9E;
+    padding:3px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.alert-movies-cinema {
+    background: #FFCB05;
+    padding:3px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.food-type-mybooking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quanity-booking h6 {
+    font-size: 12px;
+    color: #000;
+    font-family: 'Poppins';
+}
+.food-mybookingdetails h6 {
+    font-family: 'Poppins';
+    color: #808190;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.veg-icon-booking img {
+    margin-right: 5px;
+}
+.food-mybookingdetails {
+    padding: 0px 18px;
+}
+.grab {
+    display: flex;
+    padding: 10px 18px;
+    justify-content: space-between;
+    align-items: center;
+    background: #E0E6F1;
+    margin: 0px 18px;
+    border-radius: 8px;
+}
+.food-grab h6 {
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'Poppins';
+    color: #000;
+    margin-bottom: 0;
+}
+.grab-item {
+    margin-right: 8px;
+}
+.addsnack {
+    border: none;
+    padding: 9px 13px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-family: 'Poppins';
+    color: #fff;
+}
+.qrcode-booking {
+    padding: 0px 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.orderbook {
+    font-size: 12px;
+    font-family: 'Poppins';
+    color: #808190;
+}
+
+.order-booking h6 {
+    font-family: 'Poppins';
+    font-size: 12px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.seat-cushions {
+    background: #EDEDED;
+    border-top: 1px solid #BFC0C7;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.seat-cushionsc p {
+    font-size: 12px;
+}
+
+.seat-cushions p {
+    font-size: 8.5px;
+    margin: 0;
+    padding: 15px 18px;
+    font-weight: 500;
+}
+
+.seatcus img {margin-right: 8px;}
+
+.modify-box {
+    display: flex;
+    padding: 18px 0px;
+}
+.btn-btn-modify {
+    border: none;
+    padding: 9px 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.btn-btn-cancel-booking {
+    border: none;
+    padding: 9px 36px;
+    font-size: 12px;
+    font-family: 'Poppins';
+    color: #C33737;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.total-mybooking {
+    border: 1px solid #BFC0C7;
+    border-radius: 8px;
+}
+
+.amount-booking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 18px 0px 18px;
+}
+
+.show-other-mybooking {
+    display: flex;
+    padding: 0px 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-head-mybooking h6 {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    color: #000;
+}
+
+.amount-bookingmy h6 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Poppins';
+}
+.seat-mybooking-side-show p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.70);
+    margin-bottom: 8px;
+}
+
+.price-mybooking-side-show p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.70);
+    margin-bottom: 8px;
+}
+.id-booking-my {
+    font-weight: 500;
+    color: #000 !important;
+    text-transform: uppercase;
+    font-size: 12px !important;
+}
+.prvilige {
+    border-top: 1px solid #BFC0C7;
+    padding: 18px;
+    margin-top: 18px;
+}
+.prvilige p {
+    font-size: 13px;
+    color: #000;
+    margin-bottom: 0px;
+}
+.download-ticket-mybooking {
+    padding: 18px 0px;
+    text-align: center;
+}
+
+.my-download {
+    border: none;
+    padding: 9px 30px;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+.mybooking-poster img {
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0px;
+}
+
+.organisation-feild .p-inputtext {
+    width: 100%;
+    height: 58px;
+    /* border: 1px solid #EDE8E9 !important; */
+    font-weight: 600;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.movies-poster img{
+    width: 100%;
+    height: 269px;
+}
+.cancel-icon {
+    position: absolute;
+    right: 112px;
+    top: 12px;
+}
+
+.Set-alert-found {
+    text-align: center;
+}
+
+.Set-alert-found img {
+    margin-bottom: 10px;
+}
+
+.Set-alert-found p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.set-alert-not-found {
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 11px;
+    border-radius: 30px;
+}
+
+.accpet-btn-flow-seat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancel-info-btn {
+    border-radius: 20px;
+    padding: 8px 8px;
+    background-color: #d3d3d38a;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.cancel-info-btn i {
+    font-size: 12px;
+    margin-top: 5px;
+}
+span.canel-btn-txt {
+    font-size: 12px;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+.poster-mybooking-details {
+    width: 54%;
+}
+.poster-mybooking-photo {
+    margin-right: 13px;
+    width: 40%;
+}
+.cancel-info-btn-popup {
+    border-radius: 20px;
+    padding: 6px 8px;
+    background-color: #d3d3d38a;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.cancel-info-btn-popup i {
+    font-size: 12px;
+}
+span.canel-btn-txt {
+    font-size: 12px;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* ticket-cancel popup */
+.ticke-cancel-modal .p-dialog-content {
+    padding: 15px 24px!important;
+}
+.ticket-terms {
+    padding-top: 24px;
+}
+.ticket-terms {
+    padding-top: 24px;
+}
+.ticket-terms h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+.refund-food {
+    background: #F8F8F8;
+    padding: 22px 20px;
+    margin-bottom: 8px;
+    border: 1px solid #ECECEC;
+    border-radius: 8px;
+}
+.refund-food h4 {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 600;
+    color: #000;
+}
+.iconfood {
+    margin-right: 14px;
+}
+.refund-movies {
+    padding: 22px 20px;
+    background: #F8F8F8;
+    border: 1px solid #ECECEC;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .refund-movies h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 20px;
+  }
+  
+  .refund-movies p {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .refund-voucher p {
+    font-size: 13px;
+    color: #6C6C6C;
+    margin-bottom: 15px;
+  }
+  
+  .view-terms p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: underline;
+  }
+  
+.refund-movies p {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* ticket-cancel popup */
+
+.logout {
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+}
+.yes-logout {
+    border: none;
+    padding: 5px 36px;
+    margin-right: 10px;
+    border-radius: 6px;
+    font-family: 'Lato';
+    margin-bottom: 25px !important;
+    /* color: #000 !important; */
+}
+.p-inputtext:enabled:hover{
+    border-color: #000 !important;
+}
+.p-inputtext:enabled:focus{
+    box-shadow: none !important;
+    border-color: #000 !important;
+}

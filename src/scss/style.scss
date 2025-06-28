@@ -1,0 +1,38 @@
+@import 'variables';
+
+$enable-ltr: true;
+$enable-rtl: true;
+
+// app theme colors only 
+@import 'appThemeStyle';
+
+@import 'cityStyle';
+
+@import 'navbar';
+
+// === mobile queries style
+@import 'queries';
+
+@import 'mobileQueries';
+
+@import 'customStyle';
+
+@import 'banner';
+
+@import 'nowShowing';
+
+@import 'cinema';
+
+@import 'movieSession';
+
+@import 'comingSoon';
+
+@import 'profile';
+
+@import 'seatLayout';
+
+@import 'food';
+
+@import 'finalTicket';
+
+@import 'offer'

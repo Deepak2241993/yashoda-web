@@ -1,0 +1,1695 @@
+/* desktop final ticket style start */
+.payment-spaces {
+    padding: 22.5px 22.5px 45px 22.5px;
+  }
+  .payment-method {
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  .payment-method ul li {
+    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 12px;
+    padding: 6.25px 6.25px;
+  }
+  /* .payment-method ul li:hover {
+      background: #DCE2EF;
+      padding: 13px 15px;
+      border-radius: 5px;
+  } */
+  .payment-active {
+    background: #dce2ef;
+    padding: 6.25px 6.25px;
+    border-radius: 5px;
+  }
+  .payment-inactive {
+    padding: 13px 15px;
+    border-radius: 5px;
+  }
+  .paytm-photo {
+    margin-right: 18px;
+  }
+  .payment-method h6 {
+    font-size: 12px;
+    color: #7a7a7a;
+    margin-bottom: 10.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .payment-form {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  .paywithdebit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 18px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .debit-card h6 {
+    margin: 0;
+  }
+  .to-paid p {
+    margin: 0;
+  }
+  .debit-card h6 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .to-paid p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .price-cross {
+    font-weight: 500;
+    color: #1a8c2d;
+    text-decoration: line-through;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .price-blod {
+    font-weight: 700;
+  }
+  .payment-debitcard {
+    padding: 24px 72px;
+    background: #fff;
+    border-radius: 0px 0px 8px 8px;
+  }
+  .payment-debitcard .p-chips {
+    display: block;
+  }
+  .payment-feild {
+    width: 100%;
+    position: relative;
+    /* display: flex;
+      align-items: center;
+      justify-content: center; */
+  }
+  .remove-cricle {
+    position: absolute;
+    top: -9px;
+    right: -9px;
+  }
+  .payment-debitcard .p-float-label {
+    display: block;
+    position: relative;
+    /* width: 80%; */
+    margin-bottom: 12px;
+  }
+  /* .invalid {
+    border : 2px solid #ed1313 !important;
+  } */
+  .payment-debitcard .p-chips .p-chips-multiple-container {
+    padding: 12px 11.25px;
+    border: 1px solid #EDE8E9;
+  }
+  .payment-debitcard
+    .p-chips
+    .p-chips-multiple-container:not(.p-disabled).p-focus {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    border-color: #ddd;
+  }
+  .payment-debitcard .p-chips .p-chips-multiple-container:not(.p-disabled):hover {
+    border-color: #ddd;
+  }
+  .payment-debitcard .p-float-label input:focus ~ label,
+  .p-float-label input:-webkit-autofill ~ label,
+  .p-float-label input.p-filled ~ label,
+  .p-float-label textarea:focus ~ label,
+  .p-float-label textarea.p-filled ~ label,
+  .p-float-label .p-inputwrapper-focus ~ label,
+  .p-float-label .p-inputwrapper-filled ~ label,
+  .p-float-label .p-tooltip-target-wrapper ~ label {
+    top: 12px;
+  }
+  .payment-debitcard
+    .p-chips
+    .p-chips-multiple-container
+    .p-chips-input-token
+    input {
+    font-weight: 600;
+    font-family: "Poppins";
+    color: #000;
+    font-size: 12px;
+  }
+  .checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 13px;
+    cursor: pointer;
+  }
+  .payment-feild .p-float-label label{
+    font-size: 12px !important;
+  }
+  .p-float-label label{
+    font-size: 12px !important;
+  }
+  .payment-feild .p-chips .p-chips-multiple-container .p-chips-input-token{
+    padding: 5px 0px;
+  }
+  /* Hide the default checkbox input */
+  .checkbox-container input {
+    display: none;
+  }
+  /* Create the custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #007d23;
+    border-radius: 3px;
+  }
+  /* Style the custom checkbox when checked */
+  .checkbox-container input:checked ~ .checkmark:after {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  /* Style the label text */
+  .label-text {
+    font-size: 16px;
+    color: black;
+  }
+  .check-securely {
+    display: flex;
+    align-items: center;
+    margin-bottom: 19.5px;
+  }
+  .check-securely h6{
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .verfiy-payment {
+    width: 100%;
+    border: none;
+    padding: 13px 0px;
+    border-radius: 8px;
+    background: #234b9e;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .explore-offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ede8e9;
+    padding: 10px 14px;
+    border-radius: 8px;
+    height: 51px;
+      margin-top: 3px;
+  }
+  .apply-coupon {
+    padding: 11px 9px;
+    background: #fff;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+      border-radius: 8px;
+  }
+  .offericon h6 {
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .explore-icon {
+    margin-right: 8px;
+  }
+  .offers-start {
+    border: 1px solid #ede8e9;
+    margin-bottom: 10.5px;
+    margin-top: 3px;
+    padding: 7.5px 14px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .offer-control {
+    border: none;
+    font-size: 12px;
+    width: 100%;
+    font-weight: 600;
+    color: #000;
+    font-family: "Poppins";
+  }
+  .btn-apply {
+    width: 100%;
+    border: none;
+    padding: 8px 14px;
+    background: #234b9e;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  .coupon-input {
+    width: 74%;
+  }
+  .apply-offers {
+    width: 22%;
+  }
+  .offer-control:focus-visible {
+    outline: none;
+    padding: 9px 8px;
+  }
+  .bill-amounts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .gst h6 {
+    margin-bottom: 0px;
+  }
+  .tax-gst h6 {
+    margin-bottom: 0px;
+  }
+  .payment-price-cut {
+    font-weight: 500;
+    margin-right: 8px;
+    text-decoration: line-through;
+    color: #1a8c2d;
+  }
+  .cauvery-call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ticket-call h5 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .ticket-call p {
+    font-size: 12px;
+    margin: 0;
+  }
+  .price-call p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  span.info {
+    margin-left: 6px;
+  }
+  .border-dashed {
+    border: 1px dashed #ede8e9;
+    margin: 14px 0px;
+  }
+  .saved-amount {
+    text-align: center;
+    padding: 25px 0px;
+  }
+  .checked-applied {
+  }
+  .check-icon {
+    margin-bottom: 8px;
+  }
+  .checked-applied p {
+    font-size: 10.5px;
+    color: #808190;
+    font-weight: 500;
+    margin-bottom: 7px;
+  }
+  .promo {
+    margin-bottom: 18px !important;
+  }
+  .saved-amount h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 4px;
+  }
+  button.awesome {
+    padding: 9px 32px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    background: #234b9e;
+    font-family: "Poppins";
+  }
+  .offer-your {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 26px;
+  }
+  .offers-cross i {
+    color: #000 !important;
+  }
+  .offer-line {
+    background: #d6d6d6;
+    width: 100%;
+    height: 1px;
+  }
+  .offer-title h5 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Poppins";
+  }
+  .offer-cross i {
+    color: #000 !important;
+  }
+  .offer-cards {
+    margin-bottom: 16px;
+  }
+  .offer-card-photo img {
+    border-radius: 6px 6px 0px 0px;
+  }
+  .offer-cards-content {
+    background: #fff;
+    box-shadow: 0px 1px 0px #e8e8e8;
+    border: 1px solid #e8e8e8;
+    padding: 5px 10px;
+    border-radius: 0px 0px 6px 6px;
+  }
+  .arrow-offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .arrow-head h6 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
+    font-family: "Poppins";
+    margin-bottom: 0px;
+  }
+  .offer-cards-content p {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  .p-sidebar-content::-webkit-scrollbar {
+    width: 1px;
+  }
+  .remove {
+    color: #dd0000;
+    cursor: pointer;
+  }
+  .arrow-heads {
+    border-bottom: 1px solid #ede8e9;
+  }
+  .arrow-heads h6 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    font-family: "Poppins";
+    margin-bottom: 5px;
+    margin-top: 16px;
+  }
+  .arrow-heads p {
+    font-size: 12px;
+    margin-bottom: 2px;
+    padding-bottom: 12px;
+  }
+  .how-avial {
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  .how-avial h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+  }
+  .how-avial ol li {
+    font-size: 12px;
+    font-family: "Poppins";
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+  .offer-applys {
+    color: #fff;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Poppins";
+    background: #234b9e;
+    border-radius: 8px;
+    padding: 10px 14px;
+  }
+  /* final-ticket */
+  .final-ticket-bg {
+    background: #e0e6f1;
+    height: auto;
+  }
+  .enjoy-show {
+    text-align: center;
+    padding: 41px 0px 0px 0px;
+  }
+  .enjoy-show img {
+    margin-bottom: 8px;
+  }
+  .enjoy-show h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .enjoy-show p {
+    font-size: 12px;
+      margin-bottom: 12px !important;
+      width: 50%;
+      margin: 0 auto;
+      color: #000;
+      font-weight: 400;
+  }
+  .download-ticket {
+    border: none;
+    padding: 11px 13px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-bottom: 24px;
+  }
+  .download-icons {
+    margin-right: 5px;
+}
+  .final-ticket {
+      background: #fff;
+      box-shadow: 0px 2px 0px #DDD;
+      border: 0.5px solid rgba(125, 125, 125, 0.50);
+      border-radius: 19px;
+      /* padding: 20px; */
+      margin-bottom: 40px;
+  }
+  .final-ways {
+    border-right: 1px dashed #D6D6D6;
+  }
+  .final-ticket-movies {
+      display: flex;
+      padding: 20px;
+  }
+  .final-ticket-img {
+      margin-right: 20px;
+  }
+  .seat-info-show{
+    padding: 20px 20px;
+  }
+  .final-ticket-details{
+      display: grid;
+  }
+  .final-ticket-details h4 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 12px;
+  }
+  .final-ticket-details ul li {
+      list-style: none;
+      float: left;
+      display: flex;
+      align-items: center;
+      margin-right: 8px;
+      font-size: 12px;
+      margin-bottom: 12px;
+  }
+  .ticket-content p {
+      font-size: 12px;
+      margin-bottom: 60px;
+  }
+  .border-down {
+      border-bottom: 1px solid #BFC0C7;
+      width: 100%;
+  }
+  .date-show {
+      padding: 30px 0px 0px 0px;
+  }
+  .date-show h4 {
+      font-size: 18px;
+      font-weight: 400;
+  }
+  .time-show {
+    font-weight: 600;
+  }
+  .date-show h5 {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .day-show{
+      font-weight: 700;
+  }
+  .day-show {
+      font-weight: 700;
+      margin-right: 10px;
+  }
+  .date-show h5 {
+      font-weight: 400;
+  }
+  .history-book {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+  }
+  .book-history p {
+      margin: 0;
+      text-decoration: underline;
+      font-weight: 600;
+      color: #000;
+      font-size: 12px;
+  }
+  .download-tickets {
+    margin-right: 10px;
+  }
+  .download-tickets img {
+    margin-bottom: 0px;
+  }
+  .select-seat-number-final {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .veg-food h6 {
+    margin: 0px;
+  }
+  .seat-number-final{
+    padding: 7px 8px;
+    background: #e0e6f1;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  .seat-number-final p {
+    font-weight: 600;
+    margin: 0;
+    font-size: 12px;
+  }
+  .seat-info-show h6 {
+    font-size: 11px;
+    color: #808190;
+    margin-bottom: 10px;
+  }
+  .seat-info-show h5 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .regular-food.final {
+    margin-bottom: 9px !important;
+  }
+  .orderid h6 {
+    font-size: 11px;
+    color: #808190;
+    margin-bottom: 10px;
+  }
+  .orderid h5 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  } 
+  .kiosk {margin-bottom: 37px;}
+  .kiosk h6 {
+    font-size: 11px;
+    color: #808190;
+    margin-bottom: 10px;
+  }
+  .kiosk h5 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .sanner {
+    padding: 20px 20px;
+    border-left: 1px dashed #BFC0C7;
+    height: 100%;
+  }
+  .all-type-payment {
+    background: #F1F1F1;
+    padding: 10.5px 18px;
+    border-radius: 8px;
+  }
+  .payment-postpaytm {
+    background: #fff;
+    padding: 18px;
+    border-radius: 8px;
+  }
+  .payment-postpaytm .resend-otp {
+    margin-top: 22.5px;
+  }
+  .payment-postpaytm .btn-proceeds {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .payment-postpaytm .otp-feild input {
+    margin-bottom: 18px;
+  }
+  .payment-netbanking {
+    padding: 12px 18px;
+    background: #fff;
+    border-radius: 8px;
+  }
+  .bank-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bank-name h6 {
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+  .bank-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .bank-divider {
+    background: #EDE8E9;
+    height: 1px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .bank-name {
+    display: flex;
+    align-items: center;
+  }
+  .payment-type-icon {
+    width: 31px;
+    margin-right: 25px;
+  }
+  .upi-feilds .p-chips {
+    display: inherit;
+    margin: 0 auto;
+  }
+  .upi-feilds {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  .upi-flow {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .upi-collect p {
+    font-size: 12px;
+    color: #908E8E;
+    margin-top: 5px;
+  }
+  .card-cred input {
+    width: 100%;
+    height: 54px;
+    border: 1px solid #EDE8E9;
+    font-size: 12px;
+    color: #908E8E;
+    padding: 0px 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+  }
+  .information-mobikwik {
+    text-align: left;
+    color: #908E8E !important;
+    margin-bottom: 18px !important;
+  }
+  .gyftr-box {
+    background: #F8F8F8;
+    border: 1px solid #ECECEC;
+    border-radius: 8px;
+  }
+  .gyftr-box p {
+    font-size: 12px;
+    padding: 8px;
+    margin-bottom: 0;
+  }
+  .gyftr-box {
+    margin-bottom: 15px;
+  }
+  .divider-gyftr {
+    width: 100%;
+    background: #ECECEC;
+    height: 1px;
+  }
+  .otp-feild {
+    justify-content: center;
+    display: flex;
+  }
+  .otp-feild input{
+    margin-left: 18px;
+  }
+  .verfiy-paytm {
+    width: 70% !important;
+  }
+  .payment-netbanking .payment_method {
+    /* width: 50%; */
+    height: 36px;
+    border-radius: 8px;
+    font-size: 12px;
+    border: 1px solid #ede8e9;
+  }
+  .make_payment {
+    margin-left: 10px;
+    padding: 8px 32px;
+    font-size: 12px;
+    border: none;
+    /* background: #234b9e; */
+    border-radius: 6px;
+    /* color: #fff; */
+    font-weight: 600;
+  }
+  .payment_method:focus-visible{
+    outline: none !important;
+  }
+  .terms-condition-payment p {
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+  }
+  .terms-condition-payment a {
+    color: #234b9e;
+    font-weight: 600;
+  }
+  .terms-payment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px ;
+  }
+  .check-payment {
+    padding-top: 5px;
+    margin-right: 10px;
+  }
+  .field-checkbox {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .field-checkbox label {
+    margin-left: 10px !important;
+  }
+  .payment-feild p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .card_number_div{
+    border: 1px solid #ede8e9;
+    border-radius: 8px;
+    color: #908e8e;
+    font-size: 12px;
+    height: 54px;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+  .card_exp_month_div{
+    border: 1px solid #ede8e9;
+    border-radius: 8px;
+    color: #908e8e;
+    font-size: 12px;
+    height: 54px;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+  .card_exp_year_div{
+    border: 1px solid #ede8e9;
+    border-radius: 8px;
+    color: #908e8e;
+    font-size: 12px;
+    height: 54px;
+    margin-bottom: 12px;
+    padding: 0px 12px;
+    width: 100%;
+  }
+  .security_code_div{
+    border: 1px solid #ede8e9;
+    border-radius: 8px;
+    color: #908e8e;
+    font-size: 12px;
+    height: 54px;
+    margin-bottom: 12px;
+    padding: 0px 12px;
+    width: 100%;
+  }
+  .name_on_card_div{
+    border: 1px solid #ede8e9;
+    border-radius: 8px;
+    color: #908e8e;
+    font-size: 12px;
+    height: 54px;
+    margin-bottom: 12px;
+    padding: 0px 12px;
+    width: 100%;
+    font-family: Poppins;
+  }
+  .card_number {
+    padding: 0px 12px !important;
+    font-family: Poppins;
+    outline: none !important;
+  }
+  .card_exp_month {
+    padding: 0px 12px !important;
+    font-family: Poppins;
+  }
+  .noofcoupon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .noofcoupon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  .coupon-no h6 {
+    margin-bottom: 0px;
+    font-size: 14px;
+  }
+  .mobile .p-float-label input:focus ~ label, .p-float-label input:-webkit-autofill ~ label, .p-float-label input.p-filled ~ label, .p-float-label textarea:focus ~ label, .p-float-label textarea.p-filled ~ label, .p-float-label .p-inputwrapper-focus ~ label, .p-float-label .p-inputwrapper-filled ~ label, .p-float-label .p-tooltip-target-wrapper ~ label {
+    top: 14px;
+  }
+  .payment-feild .offer-control {
+    border: 1px solid #EDE8E9;
+    border-radius: 8px;
+    height: 54px;
+  }
+  .upi-feilds .form-control {
+    height: 54px;
+  }
+  .passport-ticket img {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .final-ticket-new {
+    background: #fff;
+    border: 1px solid rgba(125, 125, 125, 0.50);
+    box-shadow: 0px 2px 0px #DDD;
+    border-radius: 10px;
+  }
+  .ticket-new-box {
+    padding: 20px 20px;
+  }
+  .movie-poster-new img {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .share-qr-code img {
+    width: 100%;
+  }
+  .ticket-new-box {
+    padding: 20px 20px;
+    border-right: 1px dashed #D6D6D6;
+    height: 100%;
+  }
+  .final-ticket-detail-new h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .gener-new {
+    display: inline-block;
+  }
+  .gener-new ul li {
+    float: left;
+    list-style: none;
+    font-size: 12px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dot-sb {
+    height: 4px;
+    width: 4px;
+    background-color: #000000;
+    display: inline-block;
+    margin: 0px 4px;
+  }
+  .final-ticket-detail-new {
+    padding: 20px 20px 22px 0px;
+  }
+  .final-ticket-detail-new h5 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .final-ticket-detail-new p {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 4px;
+  }
+  .new-direction{
+    font-size: 12px !important;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  .direction-new {
+    margin-left: 5px;
+  }
+  .final-ticket-divider {
+    background: #D6D6D6;
+    width: 100%;
+    height: 1.1px;
+    margin: 20px 0px;
+  }
+  .date-new-ticket h6 {
+    font-size: 11px;
+    color: #808190;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .date-new-ticket p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .new-seat-info h6 {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #808190;
+    margin-bottom: 4px;
+  }
+  .seat-number-final p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .select-seat-number-final.new-ticket-box {
+    margin-bottom: 0px !important;
+  }
+  .Ticket_summary-new h5 {
+    font-size: 13px;
+    color: #9FA1AC;
+    font-weight: 700;
+  }
+  .Ticket_summary-new {
+    padding: 6px 20px;
+  }
+  .food-list-new ul li {
+    float: left;
+    list-style: none;
+    margin-right: 14px;
+    font-size: 14px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 14px;
+    align-items: center;
+  }
+  .food-list-new span img {
+    margin-right: 5px;
+    width: 69%;
+    margin-bottom: 3px;
+  }
+  .grand-total-price-new h6 {
+    font-size: 11px;
+    margin-bottom: 0px;
+    color: #808190;
+  }
+  .grand-total-price-new p {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .food-list-new {
+    display: inline-block;
+  }
+  .terms-ticket-cancel {
+    box-shadow: 0px 2px 0px #DDD;
+    background: #FFFDF5;
+    border: 1px solid rgba(125, 125, 125, 0.50);
+    margin: 20px 0px;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .now-ticket-new h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .refund-discount-new h5 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .refund-discount-new p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .terms-use-ticket {
+    box-shadow: 0px 2px 0px #DDD;
+    background: #fff;
+    border: 1px solid rgba(125, 125, 125, 0.50);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .terms-use-ticket h6 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .terms-use-ticket ul li {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .terms-use-ticket p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  
+/* desktop final ticket style end */
+
+.food-list-new img {
+    width: 13px !important;
+}
+/* mobile final ticket style start */
+.mobile-final-ticket-bg {
+    background: #ffffff !important;
+    height: auto;
+}
+.mobile-container {
+    border: 1px solid #CCC;
+    border-radius: 20px;
+}
+.booking-confirm{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #dddd;
+    top: 0 !important;
+}
+.booking-confirm h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.mobile-food-list-new{
+    font-size: 12px;
+}
+.mobile-enjoy-show {
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+}
+
+.mobile-enjoy-show h4 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.final-poster-show-ticket {
+    margin-right: 14px;
+}
+
+.mobile-enjoy-show p {
+    font-size: 14px;
+    color: #000;
+}
+.mobile-movie-info {
+    padding: 14px;
+}
+.final-poster-ticket img {
+    margin-right: 14px;
+}
+.new-seat-info {
+    padding: 0px 14px 11px 7px;
+
+}
+.show-more-finals {
+    background: #F9F9F9;
+    padding: 14px;
+    border: 1px solid #CCC;
+}
+.Show-more-detail-final {
+    font-size: 14px;
+    font-weight: 700;
+}
+.finalticket-gap {
+    margin-bottom: 14px;
+}
+.final-ticket-divider{
+    margin: 14px 0px;
+}
+.mobile-ticket-details h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.mobile-ticket-details h5 {
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.mobile-ticket-details p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 0px;
+}
+/* .date-new-ticket {
+    padding: 0px 14px;
+} */
+.qr-final-ticket-mobile {
+    width: 100%;
+}
+.Ticket_summary-new-mobile {
+    padding: 6px 14px;
+}
+.Ticket_summary-new-mobile h5 {
+    color: #9FA1AC;
+    font-size: 14px;
+    font-weight: 700;
+}
+.date-new-ticket p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    /* visibility: hidden; */
+}
+.mobile-foodbeverage-final {
+    padding: 0px 14px;
+}
+.mobile-Ticket_summary-new h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #9FA1AC;
+    margin-bottom: 14px;
+}
+.mobile-new-food-beverage h6 {
+    color: #808190;
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.mobile-food-list-new ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.date-new-tickets h6 {
+    font-size: 14px;
+    color: #808190;
+    margin-bottom: 4px;
+}
+.Final-ticket-terms {
+    border: 1px solid #ccc !important  ;
+    /* padding: 14px !important; */
+    border-radius: 21px !important;
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+}
+.show-terms-final-mobile {
+    display: flex;
+    align-items: center;
+    background: #F9F9F9;
+    border-radius: 21px!important;
+     padding: 14px !important;
+}
+.cancelrefund-mobile {
+    padding: 0px 14px;
+}
+.mobie-terms-use-ticket ul{
+    padding: 0px 14px;
+    margin-bottom: 15px;
+}
+.mobie-terms-use-ticket ul li {
+    margin-left: 20px;
+    font-weight: 400;
+}
+.mobie-terms-use-ticket p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    padding: 8px 14px;
+}
+.food-divided {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customer-divider {
+    width: 100%;
+    background: #ccc;
+    height: 1px;
+}
+.mobie-terms-use-ticket h6 {
+    font-size: 16px;
+    padding: 0px 14px;
+    font-weight: 600;
+}
+.mobile-passport-ticket img {
+    margin-bottom: 43px;
+}
+.mobile-passport-ticket img {
+    margin-bottom: 125px;
+}
+
+.mobile-passport-ticket img {
+    width: 100%;
+}
+.mobile-download-ticket {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.10);
+    z-index: 999;
+    padding-top: 22px;
+}
+/* mobile final ticket style end */
+
+/* final payment bar */
+.Payment-show-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+}
+.Payment-show-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: poppins;
+    margin-bottom: 20px;
+}
+.Payment-process-bar{
+    width: 200px;
+    height: 200px;
+}
+.Payment-process-bar .CircularProgressbar .CircularProgressbar-path{
+    stroke: #007D23 !important;
+}
+.Payment-process-bar .CircularProgressbar .CircularProgressbar-text{
+    fill: #000 !important;
+}
+/* final payment bar */
+
+
+/* gift final ticket  */
+.gift-ticket-bg {
+    height: 100vh;
+}
+
+.gift-card-success {
+    text-align: center;
+}
+
+.gift-card-success img {
+    margin-bottom: 15px;
+}
+
+.gift-card-success h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.gift-ticket-final-show {
+    background: #fff;
+    border: 1px solid #CCC;
+    border-radius: 16px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 41px;
+}
+.gift-ticket-divider {
+    width: 100%;
+    background: #ccc;
+    height: 1px;
+    margin: 24px 0px;
+}
+
+
+.gift-show-final-ticket {
+    padding: 0px 24px;
+}
+.gift-show-final-ticket img {
+    width: 100%;
+}
+.gift-card-ticket-details {
+    border-left: 1px solid #CCC;
+}
+.gift-card-ticket-details {
+    border-left: 1px solid #CCC;
+    padding: 24px 38px;
+}
+.gift-card-ticket-details h6 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #7A7A7A;
+    margin-bottom: 5px;
+}
+
+.gift-card-ticket-details h5 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.gift-card-ticket-details h2 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.gift-card-ticket-details h4 {
+    font-size: 13px;
+}
+
+.gift-card-ticket-details h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.gift-card-ticket-details p {
+    font-size: 14px;
+}
+
+
+/* gift final ticket */
+
+.date-new-ticket {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.card.mt-3.Final-ticket-terms {
+    margin-bottom: 1rem;
+}
+
+
+/* passport-final-ticket */
+.Passport-final-ticket {
+  background: #6F1612;
+  padding: 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+.passport-bg-ticket {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.final-ticket-new.passport-final {
+  border-radius: 0px 0px 8px 8px;
+  position: relative;
+//   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../../assets/payment/passport-bg.png');
+}
+
+.kindly {
+  background: #59120E;
+  border-radius: 6px;
+  padding: 10px 20px;
+  height: 40px;
+}
+.passport-details-person {
+  color: #fff;
+  margin-left: 10px;
+}
+.kindly p {
+  font-size: 14px;
+  color: #FFFFFF99;
+  margin-bottom: 0px;
+}
+.passport-user h3 {
+  font-size: 14px;
+  color: #FFCB05;
+  margin-bottom: 0px;
+}
+.discount-price-cut {
+  color: #BF0000;
+  text-decoration: line-through;
+  margin-right: 14px;
+}
+.passport-weeked img {
+  width: 100%;
+}
+.passport-week-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.passport-bg-ticket img {
+  opacity: 0.5;
+}
+.passport-mobile-bg {
+  border-radius: 12px 12px 0px 0px;
+  background: #6F1612;
+  padding: 14px 14px;
+}
+
+.week-passprt-mobile {
+  text-align: center;
+}
+
+.user-mobile h3 {
+  color: #FFCB05;
+  font-size: 14px;
+}
+.user-mobile-view h3 {
+    color: #fff;
+    font-size: 14px;
+    text-align: end;
+  }
+  .passport-divider-mobile {
+    padding: 0;
+    background: #8C4541;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0px;
+}
+
+.kindly-mobile {
+  background: #59120E;
+  padding: 13px;
+  border-radius: 7px;
+}
+
+.kindly-mobile p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+/* passport-final-ticket */
+
+
+/* New Final ticket */
+.Final-ticket-box{
+  border: 1px solid #2F2E2E80;
+  border-radius: 6px;
+  background: #fff;
+  padding: 20px;
+}
+.mybooking-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  position: relative;
+}
+.mybooking-orderid {
+  text-align: right;
+}
+.my-booking-poster-name {
+  display: flex;
+}
+.mybooking-poster {
+  margin-right: 15px;
+}
+.mybooking-content h6 {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.mybook-drama ul li {
+  float: left;
+  list-style: none;
+  font-size: 14px;
+  color: #808190;
+  display: flex;
+  align-items: center;
+}
+.cinema-id {
+  font-weight: 600;
+  color: #000;
+  margin-left: 5px;
+}
+.direction-mybooking {
+  margin-right: 5px;
+}
+.mybook-drama {
+  display: inline-block;
+  /* margin-bottom: 10px; */
+}
+
+.mybooking-content p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #808190;
+}
+.dots-profile {
+  background: #808190;
+  display: inline-block;
+  height: 4px;
+  margin: 0 4px;
+  width: 4px;
+}
+.mybooking-orderid h6 {
+  color: #808190;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.mybooking-orderid p {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.order-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scanner {
+  margin-left: 25px;
+}
+.divider-line-cinema {
+  background: #DDDDDD;
+  width: 100%;
+  height: 2px;
+  margin: 25px 0px;
+}
+.payment-id h6 {
+  font-size: 12px;
+  color: #808190;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.payment-id p {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.divider-line-cinema-transpert {
+  width: 100%;
+  background: #fff;
+  height: 2px;
+  margin: 8px 0px;
+}
+.seat-number-cinemas ul li {
+  list-style: none;
+  float: left;
+  font-size: 12px;
+  margin-right: 10px;
+  background: #C0E1FC;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+.audi {
+  margin-bottom: 8px !important;
+}
+.food-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.food-name p {
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.food-quanity p {
+  font-size: 14px;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #000;
+}
+.veg-icon {
+  margin-right: 8px;
+}
+.Add-food {
+  border: 1px solid #E52630;
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.end {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding-bottom: 18px;
+}
+.Ticket.Summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F0F8FF;
+  padding: 14px 14px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.Ticket_Summary{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 4px;
+  margin-bottom:2px;
+}
+.Summarys h5{
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000bb;
+  font-family: 'Lato';
+  margin-bottom: 0;
+}
+.Summary h5 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-family: 'Lato';
+}
+.Summary-price h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  margin-bottom: 0;
+}
+.taxes {
+  padding: 0px 14px;
+}
+.veg-icons img {
+  margin-right: 5px;
+}
+.food-placeholder img {
+  width: 100%;
+}
+
+.order-line {
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+.order-line p{
+  font-weight: 800;
+  font-family:'lato';
+}
+/* New Final ticket */

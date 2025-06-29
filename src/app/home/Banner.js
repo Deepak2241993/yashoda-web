@@ -42,9 +42,6 @@ const Banner = (bnrData) => {
 
   return (
     <React.Fragment>
-      {!bannerDatas ? (
-        <BannerSkeleton />
-      ) : (
         <div className="movies-banner-dots">
           <div className="relative w-full h-[430px] overflow-hidden">
 
@@ -71,7 +68,6 @@ const Banner = (bnrData) => {
           </div>
 
         </div>
-      )}
     </React.Fragment>
   );
 };

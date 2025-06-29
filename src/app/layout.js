@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
       <body>
         <ThemeProvider>
           <Navbar />
-          <div style={{ position: "relative", top: "7rem" }}>
+          <div style={{ position: "relative", top: "4rem" }}>
             {children}
             <Footer />
           </div>
